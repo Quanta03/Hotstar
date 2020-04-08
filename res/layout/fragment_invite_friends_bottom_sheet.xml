@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<in.startv.hotstar.rocky.ui.customviews.blur.RoundishFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/container" android:tag="layout/fragment_invite_friends_bottom_sheet_0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cornerRadius="5.0dip" app:roundedCorners="topLeft|topRight">
+	<include android:id="@id/request_permission" layout="@layout/layout_request_permission" />
+	<include android:id="@id/select_friends" layout="@layout/layout_select_friends" />
+	<FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="60.0dip">
+		<ProgressBar android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SmallSpinner" />
+	</FrameLayout>
+	<include android:id="@id/success_screen" android:layout_width="fill_parent" android:layout_height="223.0dip" layout="@layout/layout_social_timed_notification" />
+</in.startv.hotstar.rocky.ui.customviews.blur.RoundishFrameLayout>

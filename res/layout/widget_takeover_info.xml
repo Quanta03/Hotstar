@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/widget_takeover_info_0" android:layout_width="fill_parent" android:layout_height="32.0dip">
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/take_over_info_text" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="0.0dip" style="@style/P3.Regular" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/take_over_info_value" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="0.0dip" />
+	<View android:id="@id/border" android:background="@color/take_over_info_line" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+</RelativeLayout>

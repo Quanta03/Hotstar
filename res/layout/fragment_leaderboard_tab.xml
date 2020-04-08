@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_leaderboard_tab_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:tag="binding_1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/you" app:layout_constraintTop_toTopOf="parent" />
+	<include android:id="@id/you" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/recycler_view" layout="@layout/leaderboard_you_item" />
+	<ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SmallSpinner" />
+	<include android:id="@id/failed_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/fragment_leaderboard_v2_failed" />
+</androidx.constraintlayout.widget.ConstraintLayout>

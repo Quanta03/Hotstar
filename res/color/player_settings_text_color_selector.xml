@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:name="fontFamily" android:state_selected="true" android:color="@color/tree_green">sans-serif-medium	</item>
+	<item android:name="fontFamily" android:state_pressed="true" android:color="@color/tree_green">sans-serif-medium	</item>
+	<item android:name="fontFamily" android:color="@color/black">sans-serif	</item>
+</selector>

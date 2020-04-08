@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="@dimen/social_tab_height">
+	<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:id="@id/icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="@dimen/margin_med" app:tint="@color/social_tab_text_color" />
+	</FrameLayout>
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textSize="@dimen/Text.P4" android:textStyle="bold" android:textColor="@color/social_tab_text_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_low" android:layout_marginRight="@dimen/margin_low" android:singleLine="true" android:textAllCaps="true" />
+</LinearLayout>

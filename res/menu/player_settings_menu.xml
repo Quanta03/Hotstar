@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@id/video_quality" android:title="@string/video_quality" />
+	<item android:id="@id/subtitle" android:title="@string/subtitle" />
+	<item android:id="@id/audio_language" android:title="@string/audio_language" />
+	<item android:id="@id/feedback" android:title="@string/report_feedback" />
+</menu>

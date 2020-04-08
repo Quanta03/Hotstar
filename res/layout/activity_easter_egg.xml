@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_easter_egg_0" android:background="@drawable/window_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.google.android.material.appbar.AppBarLayout android:theme="?appBarOverlay" android:id="@id/appbar_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<androidx.appcompat.widget.Toolbar android:theme="?overlay" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_scrollFlags="enterAlways|scroll" style="?toolbarGradient">
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Geek Stats" android:maxLines="1" style="@style/H2.Regular.ToolbarText" />
+		</androidx.appcompat.widget.Toolbar>
+		<com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:background="?transparentTabBackground" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:tabGravity="fill" app:tabMode="scrollable" style="?landingTabLayoutStyle" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<in.startv.hotstar.rocky.ui.customviews.HSCustomCoordinatorLayout xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/coordinator_layout" android:tag="layout/activity_sports_landing_page_0" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+	<RelativeLayout android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="?scrollingViewBehavior">
+		<ProgressBar android:id="@id/progress" android:layout_centerInParent="true" style="@style/DefaultSpinner" />
+		<androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</RelativeLayout>
+	<com.google.android.material.appbar.AppBarLayout android:theme="?appBarOverlay" android:orientation="vertical" android:id="@id/appbar_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<androidx.appcompat.widget.Toolbar android:theme="?overlay" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_scrollFlags="enterAlways|scroll|snap" style="?toolbarGradient" />
+		<com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@id/sports_landing_tabs" android:background="?transparentTabBackground" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabMode="scrollable" style="?landingTabLayoutStyle" />
+	</com.google.android.material.appbar.AppBarLayout>
+</in.startv.hotstar.rocky.ui.customviews.HSCustomCoordinatorLayout>

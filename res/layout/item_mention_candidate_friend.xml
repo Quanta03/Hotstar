@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:tag="layout/item_mention_candidate_friend_0" android:background="?android:selectableItemBackground" android:padding="@dimen/mention_friends_item_space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<FrameLayout android:layout_width="@dimen/mention_friends_item_avatar_size" android:layout_height="@dimen/mention_friends_item_avatar_size">
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/comment_initials_icon" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/L7.Regular" />
+	</FrameLayout>
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textSize="@dimen/mention_friends_item_name_size" android:textColor="@color/black" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mention_friends_item_space" />
+</LinearLayout>

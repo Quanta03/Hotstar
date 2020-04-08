@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
+	<path android:fillColor="@color/menu_drawer_icon_color" android:pathData="M18.355,20H5.645c-0.585,0 -1.06,-0.511 -1.06,-1.141v-4.663L3.029,7.21c-0.111,-0.509 0.112,-1.034 0.542,-1.275 0.43,-0.242 0.958,-0.137 1.28,0.253l2.913,3.539c0.3,0.387 0.779,0.557 1.234,0.44 0.489,-0.131 0.867,-0.55 0.975,-1.08l1.006,-4.223c0.118,-0.508 0.541,-0.864 1.027,-0.864 0.486,0 0.91,0.356 1.028,0.864l1.006,4.223c0.108,0.53 0.486,0.949 0.974,1.08 0.453,0.115 0.927,-0.055 1.224,-0.44l2.913,-3.539c0.322,-0.39 0.85,-0.495 1.28,-0.253 0.43,0.24 0.653,0.766 0.542,1.275l-1.558,6.986v4.663c0,0.63 -0.474,1.141 -1.059,1.141z" android:fillType="evenOdd" />
+</vector>

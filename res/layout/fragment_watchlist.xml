@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_watchlist_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/watchlist" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<ProgressBar android:layout_gravity="center" android:id="@id/progress" style="@style/DefaultSpinner" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/empty_state_text_color" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/empty_list" android:padding="44.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/empty_list_desc" android:drawableTop="@drawable/watchlist_illustration" android:drawablePadding="20.0dip" style="@style/P1.Medium" />
+</FrameLayout>

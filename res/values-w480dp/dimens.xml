@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="after_click_inner_ring">4.0dip</dimen>
+<dimen name="after_click_outer_ring_first_size_btw">4.0dip</dimen>
+<dimen name="after_click_outer_ring_first_size_last">4.399994dip</dimen>
+<dimen name="after_click_outer_ring_fourth_size_btw">5.1999817dip</dimen>
+<dimen name="after_click_outer_ring_fourth_size_last">5.5999756dip</dimen>
+<dimen name="after_click_outer_ring_second_size_btw">4.399994dip</dimen>
+<dimen name="after_click_outer_ring_second_size_last">4.799988dip</dimen>
+<dimen name="after_click_outer_ring_third_size_btw">4.799988dip</dimen>
+<dimen name="after_click_outer_ring_third_size_last">5.1999817dip</dimen>
+<dimen name="default_ring">1.0dip</dimen>
+<dimen name="keymoments_count_view_margin_left">39.0dip</dimen>
+<dimen name="keymoments_count_view_margin_top">29.0dip</dimen>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<in.startv.hotstar.rocky.ui.customviews.HSTouchDisabledScrollView android:id="@id/scrollImage" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="250.0dip">
+			<ImageView android:id="@id/imgCollage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/onboarding_collage" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+		</in.startv.hotstar.rocky.ui.customviews.HSTouchDisabledScrollView>
+		<RelativeLayout android:orientation="vertical" android:id="@id/laygradientTop" android:background="@drawable/onboarding_gradient" android:layout_width="fill_parent" android:layout_height="250.0dip">
+			<ImageView android:id="@id/imgLogo" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="110.0dip" android:src="@drawable/hotstar_logo_with_shadow" android:layout_centerHorizontal="true" />
+		</RelativeLayout>
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:layout_gravity="center" android:id="@id/txtvOnboardingHeader" android:background="@color/white" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enjoy_a_personalised_experience_with_an_account" android:layout_below="@id/laygradientTop" style="@style/H1.Regular.Black" />
+		<LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/txtvOnboardingHeader">
+			<include android:id="@id/layoutFacebook" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_facebook_button" />
+			<LinearLayout android:orientation="horizontal" android:id="@id/layoutButtonBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/onboarding_buttonbar_margin_top">
+				<in.startv.hotstar.rocky.ui.customviews.HSButton android:id="@id/signup" android:layout_width="@dimen/zero_dp" android:layout_height="@dimen/button_height" android:text="@string/sign_up" android:layout_weight="1.0" android:textAllCaps="true" style="@style/ButtonBorder" />
+				<in.startv.hotstar.rocky.ui.customviews.HSButton android:id="@id/btnSign" android:layout_width="@dimen/zero_dp" android:layout_height="@dimen/button_height" android:layout_marginLeft="@dimen/onbarding_button_spacing" android:text="@string/log_in" android:layout_weight="1.0" android:textAllCaps="true" style="@style/ButtonBorder" />
+			</LinearLayout>
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/txtvSkip" android:background="?android:selectableItemBackground" android:padding="@dimen/normal_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/skip_top_margin" android:text="@string/skip" style="@style/L1.Medium.WarmGreyTwo" />
+		</LinearLayout>
+	</RelativeLayout>
+</ScrollView>

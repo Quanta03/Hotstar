@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="28.0dip" android:width="28.0dip" android:viewportWidth="28.0" android:viewportHeight="28.0">
+	<path android:fillColor="@color/social_invite_plus_color" android:pathData="M14,14m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+	<path android:fillColor="@color/social_invite_plus_sign" android:pathData="M19.82,15.104c0.574,0 1.096,-0.411 1.154,-0.982a1.098,1.098 0,0 0,-1.091 -1.21l-4.462,-0.003a0.322,0.322 0,0 1,-0.321 -0.321l-0.003,-4.399c0,-0.573 -0.413,-1.096 -0.984,-1.154a1.094,1.094 0,0 0,-1.208 1.09l0.003,4.462a0.32,0.32 0,0 1,-0.321 0.32l-4.393,-0.002c-0.584,0 -1.116,0.426 -1.161,1.008a1.095,1.095 0,0 0,1.093 1.184l4.462,0.003c0.177,0 0.321,0.144 0.321,0.32l0.003,4.462a1.095,1.095 0,0 0,1.184 1.094c0.582,-0.045 1.008,-0.577 1.008,-1.161l-0.003,-4.393a0.32,0.32 0,0 1,0.321 -0.32l4.398,0.002z" android:fillType="nonZero" />
+</vector>

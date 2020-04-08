@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/layout_facebook" android:tag="layout/layout_facebook_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<include android:id="@id/fb_layout" layout="@layout/layout_facebook_button" />
+	<LinearLayout android:orientation="horizontal" android:id="@id/or_separator_layout" android:paddingLeft="@dimen/sign_in_seprator_padding" android:paddingRight="@dimen/sign_in_seprator_padding" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/OR_margin_top" android:layout_marginBottom="@dimen/Or_margin_bottom">
+		<View android:layout_gravity="center" android:background="@color/sign_in_edit_border_color" android:layout_width="@dimen/zero_dp" android:layout_height="@dimen/sign_in_border_height" android:layout_weight="1.0" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center_vertical" android:paddingLeft="@dimen/signin_or_text_left_padding" android:paddingRight="@dimen/signin_or_text_right_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/separator_text_singin_fragment" style="@style/P1.Regular.WarmGreyTwo" />
+		<View android:layout_gravity="center" android:background="@color/sign_in_edit_border_color" android:layout_width="@dimen/zero_dp" android:layout_height="@dimen/sign_in_border_height" android:layout_weight="1.0" />
+	</LinearLayout>
+</LinearLayout>

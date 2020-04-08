@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/widget_form_text_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<com.google.android.material.textfield.TextInputLayout android:theme="@style/LeadGenTextFieldTheme" android:id="@id/tt_input_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:hintEnabled="false">
+		<in.startv.hotstar.rocky.ui.customviews.HSEditText android:textSize="16.0sp" android:id="@id/et_field" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="8.0sp" android:inputType="text" style="@style/EditTextStyle" />
+	</com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

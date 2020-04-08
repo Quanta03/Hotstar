@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<in.startv.hotstar.rocky.ui.customviews.MetadataExpandableTextView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/metadata_expandable_description_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="@dimen/detail_page_description_spacing_between_lines" style="@style/P2.Regular.BrownishGrey" />
+</in.startv.hotstar.rocky.ui.customviews.MetadataExpandableTextView>

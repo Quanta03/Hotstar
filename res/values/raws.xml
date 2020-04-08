@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item type="raw" name="instream_audio_ad_1">false</item>
+<item type="raw" name="instream_audio_ad_2">false</item>
+<item type="raw" name="instream_audio_ad_3">false</item>
+<item type="raw" name="instream_audio_ad_4">false</item>
+<item type="raw" name="instream_fifteen_ad_1">false</item>
+<item type="raw" name="instream_fifteen_ad_2">false</item>
+<item type="raw" name="instream_fifteen_ad_3">false</item>
+<item type="raw" name="instream_fifteen_ad_4">false</item>
+<item type="raw" name="instream_preroll_ad_1">false</item>
+<item type="raw" name="instream_preroll_ad_2">false</item>
+<item type="raw" name="instream_preroll_ad_3">false</item>
+<item type="raw" name="instream_preroll_ad_4">false</item>
+</resources>

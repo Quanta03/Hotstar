@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/btf_custom_ad_carousel_0" android:background="@color/ad_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<include android:id="@id/native_common" layout="@layout/native_ad_common" />
+	<androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_carousel" android:paddingLeft="12.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="14.0dip" android:paddingStart="12.0dip" app:layoutManager="in.startv.hotstar.rocky.ui.NoPredictiveAnimationLinearLayoutManager" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+{
+  "DWLD_701": {
+    "title": "Download Restriction",
+    "message": "A maximum of 5 devices per account are permitted for the Download of Premium/VIP content. Please delete the download from the other devices. (Error: 701)"
+  },
+  "DWLD_702": {
+    "title": "Download Restriction",
+    "message": "A maximum of 5 Premium/VIP content is allowed to be downloaded simultaneously per device. Please delete an existing download on the device to proceed with this download. (Error: 702)"
+  },
+  "DWLD_703": {
+    "title": "Download Restriction",
+    "message": "A maximum of 5 contents from this studio may be downloaded simultaneously. Please delete an existing downloaded content from the same studio to proceed with this. (Error: 703)"
+  },
+  "DWLD_707": {
+    "title": "Download Restriction",
+    "message": "A maximum of 5 Premium/VIP content is allowed to be downloaded simultaneously across all devices per account. Please delete an existing downloaded content to proceed with this (Error: 707)"
+  },
+  "DWLD_711": {
+    "title": "Download Restriction",
+    "message": "This title has already been downloaded previously and hence cannot be downloaded again. All Premium/VIP content can be downloaded only once. (Error: 711)"
+  }
+}

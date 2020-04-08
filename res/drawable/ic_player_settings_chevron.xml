@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
+	<path android:fillColor="@color/player_setting_right_chevron" android:pathData="M9.292,17.708a0.998,0.998 0,0 1,0 -1.41l4.122,-4.123a0.248,0.248 0,0 0,0 -0.35L9.292,7.703a0.998,0.998 0,0 1,1.411 -1.411l5.086,5.086a0.88,0.88 0,0 1,0 1.244l-5.086,5.086a0.998,0.998 0,0 1,-1.41 0" android:fillType="evenOdd" />
+</vector>

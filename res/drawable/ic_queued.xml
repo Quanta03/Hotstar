@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24.0dip" android:width="25.0dip" android:viewportWidth="25.0" android:viewportHeight="24.0">
+	<path android:fillColor="@color/queued_icon_color" android:pathData="M21.354,12.178a8.177,8.177 0,1 1,-16.355 0,8.177 8.177,0 0,1 16.355,0zM19.234,12.178a6.057,6.057 0,1 1,-12.114 0,6.057 6.057,0 0,1 12.113,0zM12.484,12.492c0.012,0.19 0.16,0.345 0.35,0.36h4.627a0.684,0.684 0,0 0,0.614 -0.678,0.689 0.689,0 0,0 -0.642,-0.687l-3.227,-0.003a0.374,0.374 0,0 1,-0.341 -0.352L13.865,8.906a0.69,0.69 0,0 0,-1.381 -0.023v3.609z" android:fillType="evenOdd" />
+</vector>

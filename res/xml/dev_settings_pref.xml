@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference android:title="@string/flavor_pref_title" android:key="@string/flavor_pref_key" android:summary="@string/flavor_pref_summary" />
+	<Preference android:enabled="true" android:title="@string/config_editor" android:selectable="true" android:key="config_editor" android:summary="@string/click_to_edit_configs" />
+	<CheckBoxPreference android:title="Leak Canary" android:key="@string/flavor_leak_canary_key" android:summary="Enable/Disable Leak Canary" android:defaultValue="false" />
+	<CheckBoxPreference android:title="Disable Ads" android:key="@string/disable_ads_key" android:summary="Enable/Disable Video and Native Ads" android:defaultValue="false" />
+</PreferenceScreen>

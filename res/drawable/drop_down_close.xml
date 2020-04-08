@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="17.0dip" android:width="17.0dip" android:viewportWidth="17.0" android:viewportHeight="17.0">
+	<group>
+		<clip-path android:pathData="M0,0h16.752v16.773H0z M 0,0" />
+		<path android:fillColor="@color/lead_gen_dropdown_close" android:pathData="M10.066,8.188l2.904,-2.9c0.379,-0.379 0.452,-0.996 0.113,-1.41a1.025,1.025 0,0 0,-1.519 -0.078L8.618,6.742a0.3,0.3 0,0 1,-0.424 0L5.289,3.841c-0.378,-0.378 -0.996,-0.45 -1.41,-0.112A1.021,1.021 0,0 0,3.8 5.245l2.946,2.943a0.3,0.3 0,0 1,0 0.424l-2.9,2.897c-0.386,0.385 -0.456,1.018 -0.101,1.432a1.022,1.022 0,0 0,1.503 0.06l2.946,-2.943a0.3,0.3 0,0 1,0.424 0L11.564,13a1.022,1.022 0,0 0,1.503 -0.06c0.355,-0.413 0.285,-1.046 -0.1,-1.431l-2.901,-2.897a0.3,0.3 0,0 1,0 -0.424" android:fillType="evenOdd" />
+	</group>
+</vector>

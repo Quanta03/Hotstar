@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.viewpager.widget.ViewPager xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/pager" android:tag="layout/fragment_leaderboard_v2_0" android:background="@color/social_scorecard_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<com.google.android.material.tabs.TabLayout android:layout_gravity="top" android:id="@id/tablayout" android:layout_width="fill_parent" android:layout_height="@dimen/social_tab_height" app:tabBackground="@null" app:tabGravity="center" app:tabIndicatorHeight="0.0dip" app:tabMode="fixed" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" />
+</androidx.viewpager.widget.ViewPager>

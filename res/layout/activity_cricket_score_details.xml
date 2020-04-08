@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_cricket_score_details_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<include android:id="@id/toolbar_container" layout="@layout/toolbar_container" />
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		<ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" style="@style/SmallSpinner" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/P2.Regular.BrownishGrey" />
+	</FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

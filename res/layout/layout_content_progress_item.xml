@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/layout_content_progress_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<include android:id="@id/card_parent" layout="@layout/layout_content_item" />
+	<include android:id="@id/progress_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="2.0dip" layout="@layout/progress_bar_common" />
+	<View android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+{
+  "body": {
+    "results": {
+      "pageType": "NAVIGATION_LANDING_PAGE",
+      "responseType": "TRAY_LIST",
+      "trays": {
+        "items": [
+          {
+            "title": "Live News",
+            "traySource": "GRAVITY",
+            "addIdentifier": "LIVE_NEWS",
+            "trayTypeId": 804,
+            "traySourceId": 200,
+            "uqId": "4076_25_16"
+          },
+          {
+            "title": "Trending Now",
+            "traySource": "GRAVITY",
+            "addIdentifier": "TRENDING_SPORTS_NEWS",
+            "trayTypeId": 804,
+            "traySourceId": 200,
+            "uqId": "5709_25_16"
+          }
+        ],
+        "totalResults": 2,
+        "offset": 0,
+        "size": 2,
+        "totalPageResults": 2,
+        "totalPages": 1
+      }
+    }
+  },
+  "statusCode": "OK",
+  "statusCodeValue": 200
+}

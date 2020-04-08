@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item android:id="@id/picture_in_picture" android:title="@string/picture_in_picture" app:showAsAction="always" />
+	<item android:id="@id/cast" android:title="@string/media_route_menu_title" app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider" app:showAsAction="always" />
+	<item android:icon="@drawable/action_settings" android:id="@id/settings" android:visible="false" android:title="@string/player_menu_settings" app:showAsAction="always" />
+	<item android:id="@id/paywall_free_cast" android:visible="false" android:title="@string/paywall_cast_menu_title" app:showAsAction="always" />
+	<item android:id="@id/share" android:title="@string/player_menu_share" app:showAsAction="always" />
+	<item android:icon="@drawable/action_expand" android:id="@id/screen_mode" android:title="@string/player_menu_expand" app:showAsAction="always" />
+</menu>

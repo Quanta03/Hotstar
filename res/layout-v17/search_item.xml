@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/search_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" app:cardElevation="0.0dip" style="@style/ContentCardViewStyle">
+	<FrameLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<in.startv.hotstar.rocky.ui.customviews.HsResizableImageView android:id="@id/image" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:ratio="0.5625" />
+		<ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/empty" app:srcCompat="@drawable/content_card_item_border" />
+		<include android:id="@id/badges" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/badge_padding" android:layout_marginTop="@dimen/badge_padding" android:layout_marginStart="@dimen/badge_padding" layout="@layout/badges_layout" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="right" android:layout_gravity="right" android:id="@id/duration" android:tag="binding_3" android:background="@drawable/tray_count_gradient" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" style="@style/L3.Regular.White" />
+		<View android:layout_gravity="bottom" android:tag="binding_4" android:background="@drawable/masthead_bottom_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+		<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/bottom_layout" android:tag="binding_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip">
+			<ImageView android:id="@id/play" android:tag="binding_6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/search_play_margin" app:srcCompat="?playIcon" />
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:tag="binding_7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/search_play_margin" android:layout_marginRight="@dimen/search_play_margin" android:maxLines="2" style="@style/P2.Regular.White" />
+		</LinearLayout>
+	</FrameLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<in.startv.hotstar.rocky.ui.customviews.HSTextView xmlns:android="http://schemas.android.com/apk/res/android" android:textStyle="normal" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_med" android:text="\@{ViewModel.subtitle}" android:lineSpacingExtra="6.0sp" style="@style/L1" />

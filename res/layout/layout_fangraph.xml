@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/graph_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="150.0dip">
+	<in.startv.hotstar.fangraph.xy.XYPlot android:id="@id/xyRegionExamplePlot" android:background="@android:color/transparent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/APDefacto.Dark" />
+</LinearLayout>

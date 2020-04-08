@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_continue_watching_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+	<ProgressBar android:id="@id/progress" android:layout_centerInParent="true" style="@style/SmallSpinner" />
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/edit_continue_watching_list" android:tag="binding_1" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_view" android:paddingLeft="@dimen/empty_view_padding" android:paddingRight="@dimen/empty_view_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/empty" app:srcCompat="@drawable/error_scrn_illustration" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_empty_view_header_top_margin" android:text="@string/nothing_to_show" style="@style/H2.Medium.Black" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_empty_view_description_top_margin" android:text="@string/description_nothing_to_show" android:alpha="0.7" style="@style/P1.Regular.Black" />
+	</LinearLayout>
+</RelativeLayout>

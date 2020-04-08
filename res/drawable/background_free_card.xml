@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+	<stroke android:width="0.5dip" android:color="@color/subs_upgrade_top_sheet_item_free_stroke" />
+	<corners android:radius="5.0dip" />
+	<gradient android:startColor="@color/subs_upgrade_top_sheet_item_free_bg_end" android:endColor="@color/subs_upgrade_top_sheet_item_free_bg_start" />
+</shape>

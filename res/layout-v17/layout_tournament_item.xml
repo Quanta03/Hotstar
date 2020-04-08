@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/layout_tournament_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+	<LinearLayout android:orientation="horizontal" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<in.startv.hotstar.rocky.ui.customviews.HsResizableImageView android:id="@id/tournament_image" android:tag="binding_1" android:layout_width="80.0dip" android:layout_height="46.0dip" android:src="@drawable/halfscreen_white_thumb" android:scaleType="fitXY" app:ratio="0.5625" />
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip">
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/H5.Regular.Black" />
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/tournament_date" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/P3.Regular.WarmGreyTwo" />
+		</LinearLayout>
+	</LinearLayout>
+	<View android:background="@color/tournament_item_border_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+</LinearLayout>

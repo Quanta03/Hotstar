@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/activity_hs_payment_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<include android:id="@id/toolbar_container" layout="@layout/toolbar_container" />
+	<WebView android:id="@id/signup_lyt_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_container" />
+	<FrameLayout android:id="@id/progress" android:tag="binding_1" android:background="@color/progress_bar_bg_webview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+		<ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DefaultSpinner" />
+	</FrameLayout>
+</RelativeLayout>

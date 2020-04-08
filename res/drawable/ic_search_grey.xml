@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="32.0dip" android:width="32.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0">
+	<path android:fillColor="@color/lead_gen_search_icon" android:pathData="M13.753,21.993a5.833,5.833 0,0 1,0 -8.24,5.81 5.81,0 0,1 4.12,-1.703 5.81,5.81 0,0 1,4.12 1.703,5.787 5.787,0 0,1 1.707,4.12c0,1.557 -0.606,3.02 -1.707,4.12a5.788,5.788 0,0 1,-4.12 1.707,5.788 5.788,0 0,1 -4.12,-1.707m15.494,4.209l-4.748,-4.07c1.96,-3.049 1.61,-7.164 -1.056,-9.829 -3.07,-3.07 -8.068,-3.07 -11.14,0 -3.07,3.072 -3.07,8.07 0,11.14a7.828,7.828 0,0 0,5.57 2.307c1.535,0 3.001,-0.437 4.26,-1.25l4.069,4.746a2.159,2.159 0,0 0,3.045 -3.044" android:fillType="evenOdd" />
+</vector>

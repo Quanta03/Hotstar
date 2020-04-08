@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/layout_innings_break_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:tag="binding_1" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" style="@style/P4.Medium.WarmGreyTwo" />
+	<View android:id="@id/header_border" android:background="@color/key_moment_border_gray_with_alpha" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+</LinearLayout>

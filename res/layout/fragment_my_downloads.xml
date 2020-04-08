@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_my_downloads_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/download_list" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<ProgressBar android:id="@id/progress" android:visibility="visible" android:layout_centerInParent="true" style="@style/DefaultSpinner" />
+	<LinearLayout android:orientation="vertical" android:id="@id/empty_downloads_container" android:padding="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+		<ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/my_downloads_empty" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/empty_state_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/download_videos_and_watch_them_offline" style="@style/P1.Medium" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/find_something_to_download" android:background="?android:selectableItemBackground" android:padding="@dimen/normal_text_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/find_something_to_download" style="@style/L1.Medium.TreeGreen" />
+	</LinearLayout>
+</RelativeLayout>

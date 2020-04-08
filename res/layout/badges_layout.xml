@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:tag="layout/badges_layout_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<com.airbnb.lottie.LottieAnimationView android:id="@id/premium" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_loop="true" />
+	<com.airbnb.lottie.LottieAnimationView android:id="@id/vip" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_loop="true" />
+	<com.airbnb.lottie.LottieAnimationView android:id="@id/live" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_loop="false" app:lottie_rawRes="@raw/live_badge" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/layout_languages_discovery_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/languageDiscovery" android:background="@drawable/player_bottom_gradient" android:paddingBottom="@dimen/language_discovery_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/close" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/close" app:layout_constraintTop_toTopOf="@id/close">
+			<androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:requiresFadingEdge="horizontal" />
+		</LinearLayout>
+		<ImageView android:id="@id/close" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_marginBottom="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:srcCompat="@drawable/ic_cross_white_20" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

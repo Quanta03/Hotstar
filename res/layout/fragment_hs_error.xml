@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:tag="layout/fragment_hs_error_0" android:padding="@dimen/no_internet_screen_left_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/empty" app:srcCompat="@drawable/error_scrn_illustration" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/error_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/no_internet_screen_hdr_top_padding" android:text="@string/error_generic_title" style="@style/H2.Medium.Black" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/error_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/no_internet_screen_body_top_padding" android:text="@string/error_generic_message" style="@style/P1.Regular.Black" />
+	<in.startv.hotstar.rocky.ui.customviews.HSButton android:id="@id/retry" android:layout_marginTop="@dimen/no_internet_screen_btn_top_padding" android:text="@string/retry_caps" style="@style/ButtonGreenGray" />
+</LinearLayout>

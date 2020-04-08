@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/cl_root" android:tag="layout/detail_custom_ad_stub_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" app:cardBackgroundColor="@color/ad_background" app:cardCornerRadius="@dimen/ad_image_corner_radius" app:cardElevation="0.0dip">
+	<include android:id="@id/native_common" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" layout="@layout/native_ad_common" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_ad_instream_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<in.startv.hotstar.rocky.watchpage.playerviews.AdControlFrameLayout android:id="@id/player_control_frame_layout" android:background="#b3000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<RelativeLayout android:id="@id/ad_controller_relative_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/player_seekbar_height" android:layout_alignParentBottom="true" style="@style/AdSeekBar" />
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textSize="@dimen/player_ad_text_size" android:textColor="@android:color/white" android:id="@id/adTimer" android:background="#80000000" android:paddingLeft="10.0dip" android:paddingTop="4.0dip" android:paddingRight="10.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:maxLines="1" android:layout_alignParentRight="true" app:fontFamily="@font/roboto_medium" />
+		</RelativeLayout>
+		<FrameLayout android:id="@id/widget_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</in.startv.hotstar.rocky.watchpage.playerviews.AdControlFrameLayout>
+</RelativeLayout>

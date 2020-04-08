@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_bottom_sheet_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:id="@id/ll_bottomsheet" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+		<FrameLayout android:id="@id/toggle_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<ImageView android:layout_gravity="center|top" android:id="@id/iv_chevron" android:layout_width="@dimen/chevron_width" android:layout_height="@dimen/chevron_height" android:rotation="180.0" app:srcCompat="@drawable/ic_chevron_caret_arrow_2" />
+			<TextView android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/title" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+		</FrameLayout>
+		<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_items" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</LinearLayout>
+	<FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_sheet_cover" android:background="@drawable/hotshot_bottom_sheet_cover_gradient" android:layout_width="fill_parent" android:layout_height="70.0dip" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

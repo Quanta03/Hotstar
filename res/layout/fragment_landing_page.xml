@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/fragment_landing_page_0" android:background="@color/window_background_white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<in.startv.hotstar.rocky.ui.customviews.RootRecyclerView android:id="@id/content_list" android:tag="@string/tag_main_scrolling_view" android:paddingTop="0.0dip" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" style="@style/SmallSpinner" />
+</FrameLayout>

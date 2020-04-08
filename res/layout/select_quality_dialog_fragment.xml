@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/relative_bitrates_dialog" android:tag="layout/select_quality_dialog_fragment_0" android:paddingTop="@dimen/bottom_sheet_padding_top" android:paddingBottom="@dimen/bottom_sheet_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/bitrate_header" android:paddingLeft="@dimen/bottom_sheet_title_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bottom_sheet_title_padding_bottom" android:text="@string/bitrate_label_quality" style="@style/H4.Medium.Black" />
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/quality_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/bitrate_header" android:overScrollMode="never" />
+</RelativeLayout>

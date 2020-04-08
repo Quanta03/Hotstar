@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="keymoments_count_view_margin_top_tablet">38.0dip</dimen>
+<dimen name="keymoments_count_view_margin_top">31.0dip</dimen>
+<dimen name="after_click_inner_ring_tab">4.0dip</dimen>
+<dimen name="after_click_outer_ring_first_size_btw_tab">4.0dip</dimen>
+<dimen name="after_click_outer_ring_first_size_last_tab">4.399994dip</dimen>
+<dimen name="after_click_outer_ring_fourth_size_btw_tab">5.1999817dip</dimen>
+<dimen name="after_click_outer_ring_fourth_size_last_tab">5.5999756dip</dimen>
+<dimen name="after_click_outer_ring_second_size_btw_tab">4.399994dip</dimen>
+<dimen name="after_click_outer_ring_second_size_last_tab">4.799988dip</dimen>
+<dimen name="after_click_outer_ring_third_size_btw_tab">4.799988dip</dimen>
+<dimen name="after_click_outer_ring_third_size_last_tab">5.1999817dip</dimen>
+<dimen name="default_ring_scale_factor_tab">1.0dip</dimen>
+<dimen name="default_ring_tab">2.0dip</dimen>
+<dimen name="default_ring_tablet">3.0dip</dimen>
+<dimen name="default_ring_tablet_tab">2.0dip</dimen>
+<dimen name="ring_stroke_width_tab">1.1999817dip</dimen>
+</resources>

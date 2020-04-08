@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/privacy_widget" android:tag="layout/widget_form_privacy_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<CheckBox android:id="@id/privacy_check" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/lead_gen_privacy_color" android:textColorLink="@color/lead_gen_privacy_link_color" android:id="@id/privacy_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:lineSpacingExtra="6.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/privacy_check" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/P3.Regular" />
+</androidx.constraintlayout.widget.ConstraintLayout>

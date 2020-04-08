@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/iv_ad_background_parent" android:tag="layout/social_video_ad_carousel_item_0" android:layout_width="144.0dip" android:layout_height="86.0dip" android:layout_marginTop="@dimen/ad_card_padding_top" android:layout_marginRight="12.0dip" android:layout_marginEnd="12.0dip" style="@style/AdCardViewStyle">
+	<ImageView android:id="@id/iv_ad_background" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/content_desc_ad_background" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/btf_unified_ad_image_0" android:background="@color/ad_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<com.google.android.gms.ads.formats.UnifiedNativeAdView android:id="@id/unified_ad" android:tag="binding_1" android:paddingLeft="@dimen/ad_card_padding_left" android:paddingTop="@dimen/ad_card_padding_top" android:paddingRight="@dimen/ad_card_padding_right" android:paddingBottom="@dimen/ad_card_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<include android:id="@id/native_ad_frame" layout="@layout/native_ad_frame" />
+	</com.google.android.gms.ads.formats.UnifiedNativeAdView>
+</FrameLayout>

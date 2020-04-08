@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/app_bar_home_menu_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="binding_1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+		<include android:id="@id/content_home" layout="@layout/content_home" />
+		<com.google.android.material.appbar.AppBarLayout android:theme="?appBarOverlay" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+			<androidx.appcompat.widget.Toolbar android:theme="?overlay" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStartWithNavigation="0.0dip" app:layout_scrollFlags="enterAlways|scroll|snap" app:navigationIcon="@drawable/ic_hamburger_menu" style="?toolbarGradient">
+				<ImageView android:id="@id/toolbar_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="?toolbarLogo" />
+				<LinearLayout android:id="@id/llUpgradeButtonContainer" android:background="@drawable/border_button_upgrade" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:foreground="?android:selectableItemBackground">
+					<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/subs_upgrade_toolbar" android:layout_gravity="center" android:id="@id/tvUpgradeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" style="@style/L5.Medium" />
+					<ImageView android:layout_gravity="center_vertical" android:id="@id/ic_upgrade_chevron" android:layout_width="11.0dip" android:layout_height="11.0dip" android:layout_marginTop="0.5dip" android:layout_marginRight="2.0dip" android:tint="@color/subs_upgrade_toolbar" app:srcCompat="@drawable/ic_chevron_right_green" />
+				</LinearLayout>
+			</androidx.appcompat.widget.Toolbar>
+		</com.google.android.material.appbar.AppBarLayout>
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+	<FrameLayout android:id="@id/bottom_layout_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<FrameLayout android:id="@id/container_cast_mini_controller" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/download_progress_container" android:background="@color/black_four" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?android:selectableItemBackground">
+				<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/download_msg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/P2.Regular.White" />
+				<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/download_progress" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="8.0dip" style="@style/P2.Regular.White" />
+			</LinearLayout>
+			<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/premium_download_tip" android:background="@drawable/download_toast_background" android:paddingLeft="12.0dip" android:paddingRight="48.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:foreground="?android:selectableItemBackground">
+				<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/tab_text_unselected" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_download_tip" android:lineSpacingExtra="4.0sp" style="@style/L3.Regular" />
+			</LinearLayout>
+			<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/download_toast" android:background="@drawable/download_toast_background" android:paddingLeft="12.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:foreground="?android:selectableItemBackground">
+				<com.github.lzyzsd.circleprogress.DonutProgress android:id="@id/download_progress_circle" android:layout_width="16.0dip" android:layout_height="16.0dip" app:donut_circle_starting_degree="-90" app:donut_finished_color="@color/tree_green" app:donut_finished_stroke_width="2.0dip" app:donut_max="100" app:donut_show_text="false" app:donut_unfinished_color="@color/white_20" app:donut_unfinished_stroke_width="2.0dip" />
+				<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/tab_text_unselected" android:id="@id/toast_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" style="@style/L4.Medium" />
+				<ImageView android:layout_width="8.0dip" android:layout_height="10.0dip" app:srcCompat="@drawable/right_chevron" />
+			</LinearLayout>
+			<com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/bottom_navigation" android:background="?bottomNavigationBackgroundColor" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemIconTint="@color/bottom_navigation_text_selector" app:itemTextColor="@color/bottom_navigation_text_selector" />
+		</LinearLayout>
+		<FrameLayout android:id="@id/bottom_layout_overlay" android:background="@color/transparent_black" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	</FrameLayout>
+</LinearLayout>

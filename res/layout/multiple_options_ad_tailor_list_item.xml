@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tailor_container" android:tag="layout/multiple_options_ad_tailor_list_item_0" android:background="@drawable/tailor_option_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<ImageView android:layout_gravity="center_vertical" android:id="@id/item_tailor_checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="16.0dip" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/ad_tailor_text" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" style="@style/P2.Regular" />
+</LinearLayout>

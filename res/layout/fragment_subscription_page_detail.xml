@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_subscription_page_detail_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical" android:id="@id/subs_page" android:tag="binding_1" android:background="@color/subs_card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<in.startv.hotstar.rocky.subscription.subscriptionpage.detail.ui.AutoScrollRecyclerView android:id="@id/recyler_view" android:layout_width="fill_parent" android:layout_height="@dimen/subs_scrollview_height" />
+		<include android:id="@id/subs_main" layout="@layout/fragment_subscription_page_detail_main" />
+		<include android:id="@id/subs_tray" layout="@layout/fragment_subscription_page_detail_tray" />
+		<include android:id="@id/info_card" layout="@layout/fragment_subscription_page_detail_info_card" />
+		<include android:id="@id/subs_faq" layout="@layout/fragment_subscription_page_detail_faq" />
+		<include android:id="@id/subs_premium_card" layout="@layout/fragment_subscription_page_detail_premium_card" />
+		<include android:id="@id/subs_footer" layout="@layout/fragment_subscription_page_detail_footer" />
+	</LinearLayout>
+</androidx.core.widget.NestedScrollView>

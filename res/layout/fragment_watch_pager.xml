@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<in.startv.hotstar.rocky.ui.customviews.HSCustomCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/coordinator_layout" android:tag="layout/fragment_watch_pager_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+	<com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:orientation="vertical" android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical" android:id="@id/ad_meta_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll">
+			<FrameLayout android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<RelativeLayout android:gravity="center|right" android:id="@id/sports_pager_meta" android:background="?primaryBackgroundColor" android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<ImageView android:id="@id/sports_pager_meta_share_text" android:paddingLeft="6.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_share_grey" style="@style/P4.Regular.WarmGreyThree" />
+				<in.startv.hotstar.rocky.ui.customviews.HSTextView android:ellipsize="end" android:id="@id/sports_pager_meta_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_toLeftOf="@id/sports_pager_meta_share_text" android:layout_alignParentLeft="true" style="@style/H4.Medium.Black" />
+				<in.startv.hotstar.rocky.ui.customviews.HSTextView android:ellipsize="end" android:id="@id/sports_pager_meta_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/sports_pager_meta_share_text" android:layout_below="@id/sports_pager_meta_title" style="@style/P3.Regular.WarmGreyTwo" />
+			</RelativeLayout>
+		</LinearLayout>
+		<com.google.android.material.tabs.TabLayout android:layout_gravity="top" android:id="@id/tab_layout" android:background="@drawable/watch_page_tab_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabMode="fixed" style="@style/TabLayout.WatchPage" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<androidx.viewpager.widget.ViewPager android:id="@id/pager" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</in.startv.hotstar.rocky.ui.customviews.HSCustomCoordinatorLayout>

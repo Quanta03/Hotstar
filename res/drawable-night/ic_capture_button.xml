@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="80.0" android:viewportHeight="80.0">
+	<path android:fillColor="#ffffffff" android:pathData="M40,80C17.909,80 0,62.091 0,40S17.909,0 40,0s40,17.909 40,40 -17.909,40 -40,40zM40,77.333c20.619,0 37.333,-16.714 37.333,-37.333S60.62,2.667 40,2.667 2.667,19.38 2.667,40 19.38,77.333 40,77.333z" android:fillType="nonZero" />
+	<path android:fillColor="@drawable/$ic_capture_button__0" android:pathData="M40,40m-33.973,0a33.973,33.973 0,1 1,67.946 0a33.973,33.973 0,1 1,-67.946 0" android:fillType="nonZero" />
+	<path android:fillColor="@drawable/$ic_capture_button__1" android:pathData="M40,40m-30.667,0a30.667,30.667 0,1 1,61.334 0a30.667,30.667 0,1 1,-61.334 0" android:fillType="nonZero" />
+</vector>

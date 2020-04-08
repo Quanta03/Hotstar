@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="auth_already_have_an_account_log_in">"&lt;font color='#919191'>Already have an account? &lt;/font>&lt;font color='#29a939'> &lt;a href='loginClick'>&lt;b>Log in&lt;/b>&lt;/a>&lt;/font>"</string>
+<string name="auth_dont_have_an_account_sign_up">"&lt;font color='#919191'>Don’t have an account? &lt;/font>&lt;font color='#29a939'> &lt;a href='signupClick'>&lt;b>Create account&lt;/b>&lt;/a>&lt;/font>"</string>
+<string name="auth_terms_condtions_privacy_policy">"&lt;font color='#919191'>I agree to the &lt;/font>&lt;font color='#29a939'> &lt;a href='termsClick'>&lt;b>Terms of Use&lt;/b>&lt;/a>&lt;/font>&lt;font color='#919191'> and &lt;/font>&lt;font color='#29a939'> &lt;a href='privacyClick'>&lt;b>Privacy Policy&lt;/b>&lt;/a>&lt;/font>"</string>
+<string name="email_sent_msg">"We have sent a link to change your password to your email address &lt;font color='#dadada'>&lt;b>%s&lt;/b>&lt;/font>&lt;br />&lt;br />Write to us at hello@hotstar.com in case of any questions or complaints."</string>
+<string name="intl_auth_terms_condtions_privacy_policy">"&lt;font color='#919191'>I’m over 18, I agree to the &lt;/font>&lt;font color='#29a939'> &lt;a href='termsClick'>&lt;b>Terms of Use&lt;/b>&lt;/a>&lt;/font>&lt;font color='#919191'> and &lt;/font>&lt;font color='#29a939'> &lt;a href='privacyClick'>&lt;b>Privacy Policy&lt;/b>&lt;/a>&lt;/font>"</string>
+<string name="login_disclaimer_text">"&lt;font color='#909999'>By proceeding you agree to the &lt;/font>&lt;font color='#29a939'> &lt;a href='termsClick'>&lt;b>Terms of Use&lt;/b>&lt;/a>&lt;/font>&lt;font color='#909999'> &lt;br/>and &lt;/font>&lt;font color='#29a939'> &lt;a href='privacyClick'>&lt;b>Privacy Policy&lt;/b>&lt;/a>&lt;/font>"</string>
+<string name="sign_up_subscription_detail">"&lt;font color='#919191'>#price# per month. First month free.&lt;br/>Cancel anytime. &lt;/font>&lt;font color='#29a939'>&lt;a href='learnMoreClick'>&lt;b>Learn More&lt;/b>&lt;/a>&lt;/font>"</string>
+</resources>

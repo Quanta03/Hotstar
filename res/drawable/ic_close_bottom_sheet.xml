@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0">
+	<path android:fillColor="@color/ic_close_button_bg_color" android:pathData="M11.983,9.748l3.457,-3.453c0.451,-0.45 0.538,-1.185 0.135,-1.679a1.22,1.22 0,0 0,-1.808 -0.093L10.26,8.027a0.357,0.357 0,0 1,-0.506 0L6.296,4.573c-0.45,-0.45 -1.185,-0.537 -1.68,-0.134a1.216,1.216 0,0 0,-0.092 1.806L8.03,9.748c0.14,0.139 0.14,0.365 0,0.504l-3.453,3.45c-0.46,0.458 -0.542,1.21 -0.12,1.704a1.217,1.217 0,0 0,1.79 0.07l3.506,-3.503c0.14,-0.139 0.366,-0.139 0.506,0l3.507,3.503a1.216,1.216 0,0 0,1.789 -0.07c0.423,-0.493 0.34,-1.246 -0.12,-1.705l-3.453,-3.449a0.356,0.356 0,0 1,0 -0.504" android:strokeAlpha="0.2" android:fillAlpha="0.2" android:fillType="evenOdd" />
+</vector>

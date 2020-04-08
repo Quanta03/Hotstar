@@ -1,0 +1,982 @@
+{
+  "menu": {
+    "-222": {
+      "hindi": "\u092e\u0947\u0930\u0947 \u0921\u093e\u0909\u0928\u094d\u0932\u094b\u0921\u094d\u0938",
+      "telugu": "",
+      "english": "My Downloads",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "6": {
+      "hindi": "\u092a\u094d\u0930\u0940\u092e\u093f\u092f\u092e",
+      "telugu": "",
+      "english": "Premium",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "7": {
+      "hindi": "\u091a\u0948\u0928\u0932\u094d\u0938 ",
+      "telugu": "",
+      "english": "Channels",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "8": {
+      "hindi": "\u092d\u093e\u0937\u093e\u090f\u0902",
+      "telugu": "",
+      "english": "Languages",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "9": {
+      "hindi": "\u0936\u0948\u0932\u093f\u092f\u093e\u0902 ",
+      "telugu": "",
+      "english": "Genres",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "-402": {
+      "hindi": "\u0906\u092a\u0915\u0940 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u0938\u0940 \u092e\u0939\u0924\u094d\u0935\u092a\u0942\u0930\u094d\u0923 \u0939\u0948",
+      "telugu": "",
+      "english": "Privacy Policy",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "-401": {
+      "hindi": "\u0909\u092a\u092f\u094b\u0917 \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902",
+      "telugu": "",
+      "english": "Terms of Use",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "-400": {
+      "hindi": "\u092e\u0926\u0926",
+      "telugu": "",
+      "english": "Help",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "-334": {
+      "hindi": "\u092e\u0947\u0930\u0947 \u0907\u0928\u093e\u092e",
+      "telugu": "",
+      "english": "My Prizes",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "-333": {
+      "hindi": "\u092e\u0947\u0930\u0940 \u0935\u0949\u091a\u0932\u093f\u0938\u094d\u091f",
+      "telugu": "",
+      "english": "My Watchlist",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    }
+  },
+  "tray": {
+    "3948": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Marathi Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092e\u0930\u093e\u0920\u0940 TV \u0936\u094b"
+    },
+    "4346_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Biopic",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092c\u093e\u092f\u094b\u092a\u093f\u0915\u094d\u0938 "
+    },
+    "3462_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Family",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u092a\u0930\u093f\u0935\u093e\u0930 \u0915\u0940 \u092a\u0938\u0902\u0926"
+    },
+    "4349_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Science",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0938\u093e\u0907\u0902\u0938 \u090f\u0902\u091f\u0930\u091f\u0947\u0928\u092e\u0947\u0902\u091f "
+    },
+    "3434_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Top Picks For You",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0906\u092a\u0915\u0947 \u0932\u093f\u090f \u091f\u0949\u092a \u0935\u0940\u0921\u093f\u0913\u095b "
+    },
+    "4673_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Action",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u090f\u0915\u094d\u0936\u0928 TV \u0936\u094b  "
+    },
+    "3524_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Reality",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0930\u0940\u0910\u0932\u091f\u0940"
+    },
+    "3466_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Family",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u092a\u0930\u093f\u0935\u093e\u0930 \u0915\u0940 \u092a\u0938\u0902\u0926"
+    },
+    "4682_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Wildlife",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0935\u093e\u0907\u0932\u094d\u0921\u094d\u0932\u093e\u0907\u092b TV \u0936\u094b"
+    },
+    "3517_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Drama",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0921\u094d\u0930\u093e\u092e\u093e "
+    },
+    "4676_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Biopic",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092c\u093e\u092f\u094b\u092a\u093f\u0915\u094d\u0938 TV \u0936\u094b "
+    },
+    "3512_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Live News",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u093e\u0907\u0935 \u0959\u092c\u0930\u0947\u0902"
+    },
+    "3494": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Hindi Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0939\u093f\u0902\u0926\u0940 TV \u0936\u094b"
+    },
+    "4679_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Teen",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u091f\u0940\u0928 \u0915\u0940 \u092a\u0938\u0902\u0926 "
+    },
+    "3488": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Tamil Movies",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0924\u092e\u093f\u0932 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "4454": {
+      "bengali": "",
+      "telugu": "",
+      "english": "HOOQ On Hotstar Premium",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "Hotstar \u092a\u094d\u0930\u0940\u092e\u093f\u092f\u092e \u092a\u0930 HOOQ"
+    },
+    "3519_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Romance",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0930\u094b\u092e\u093e\u0902\u0938 "
+    },
+    "4677_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Documentary",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0921\u0949\u0915\u094d\u092f\u0941\u092e\u0947\u0902\u091f\u094d\u0930\u0940\u095b"
+    },
+    "4681_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Talkshow",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u091f\u0949\u0915 \u0936\u094b  "
+    },
+    "3949": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Kannada Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0915\u0928\u094d\u0928\u095c TV \u0936\u094b"
+    },
+    "3476": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Hindi Movies",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0939\u093f\u0902\u0926\u0940 \u092b\u093f\u0932\u094d\u092e\u0947\u0902    "
+    },
+    "4085_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Mythology",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0905\u092e\u0930-\u0917\u093e\u0925\u093e\u090f\u0902 "
+    },
+    "3478_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular TV Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f TV \u0936\u094b  "
+    },
+    "3433_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Comedy",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0915\u0949\u092e\u0947\u0921\u0940 TV \u0936\u094b  "
+    },
+    "4692_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Documentary",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0921\u0949\u0915\u094d\u092f\u0941\u092e\u0947\u0902\u091f\u094d\u0930\u0940\u095b"
+    },
+    "4680_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Science",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0938\u093e\u0907\u0902\u0938 TV \u0936\u094b "
+    },
+    "3483": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Bengali Movies",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092c\u0902\u0917\u093e\u0932\u0940 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3479": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular English Movies",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3522_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Kids",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u092c\u091a\u094d\u091a\u094b\u0902 \u0915\u0940 \u092a\u0938\u0902\u0926 "
+    },
+    "3463_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Romance",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0930\u094b\u092e\u093e\u0902\u0938 TV \u0936\u094b  "
+    },
+    "4678_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Travel",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u091f\u094d\u0930\u0948\u0935\u0947\u0932 TV \u0936\u094b  "
+    },
+    "4337_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Talkshow",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u091f\u0949\u0915 \u0936\u094b"
+    },
+    "3741_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "New On Hotstar",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u090f\u0915\u0926\u092e \u092b\u094d\u0930\u0947\u0936 "
+    },
+    "3413_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Top Picks For You",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0906\u092a\u0915\u0947 \u0932\u093f\u090f \u091f\u0949\u092a \u0935\u0940\u0921\u093f\u0913\u095b "
+    },
+    "4693_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Travel",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u091f\u094d\u0930\u0948\u0935\u0947\u0932 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "4350_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Wildlife",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0935\u093e\u0907\u0932\u094d\u0921\u094d\u0932\u093e\u0907\u092b \u090f\u0902\u091f\u0930\u091f\u0947\u0928\u092e\u0947\u0902\u091f"
+    },
+    "3499": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Tamil Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0924\u092e\u093f\u0932 TV \u0936\u094b"
+    },
+    "3438_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular In Romance",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0930\u094b\u092e\u093e\u0902\u0938 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "4342_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Documentary",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0921\u0949\u0915\u094d\u092f\u0941\u092e\u0947\u0902\u091f\u094d\u0930\u0940\u095b"
+    },
+    "4278_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Top Picks For You",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0906\u092a\u0915\u0947 \u0932\u093f\u090f \u091f\u0949\u092a \u0935\u0940\u0921\u093f\u0913\u095b "
+    },
+    "3518_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Family",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u092a\u0930\u093f\u0935\u093e\u0930 \u0915\u0940 \u092a\u0938\u0902\u0926 "
+    },
+    "4355_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Divine Drama",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0926\u093f\u0935\u094d\u092f \u0917\u093e\u0925\u093e\u090f\u0902 "
+    },
+    "4694_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Teen",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u091f\u0940\u0928 \u0915\u0940 \u092a\u0938\u0902\u0926"
+    },
+    "3457_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Reality",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0930\u0940\u0910\u0932\u091f\u0940 TV \u0936\u094b   "
+    },
+    "3441_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "My Watchlist",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u092e\u0947\u0930\u0940 \u0935\u0949\u091a\u0932\u093f\u0938\u094d\u091f"
+    },
+    "3482_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Movies",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3678_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Premium Movies",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092a\u094d\u0930\u0940\u092e\u093f\u092f\u092e \u092e\u0942\u0935\u0940\u095b "
+    },
+    "3455_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Thriller",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0925\u094d\u0930\u093f\u0932\u0930 TV \u0936\u094b  "
+    },
+    "3528_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Languages",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092d\u093e\u0937\u093e\u090f\u0902"
+    },
+    "4696_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Wildlife",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0935\u093e\u0907\u0932\u094d\u0921\u094d\u0932\u093e\u0907\u092b \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "4689_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Reality",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0930\u0940\u0910\u0932\u091f\u0940 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "4690_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Kids",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u092c\u091a\u094d\u091a\u094b\u0902 \u0915\u0940 \u092a\u0938\u0902\u0926"
+    },
+    "3526": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Disney Delights",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "Disney \u0915\u0940 \u0926\u0941\u0928\u093f\u092f\u093e"
+    },
+    "3456_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Action",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u090f\u0915\u094d\u0936\u0928 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3489_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Comedy",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0915\u0949\u092e\u0947\u0921\u0940 "
+    },
+    "3424_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Continue Watching",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0926\u0947\u0916\u0928\u093e \u091c\u093e\u0930\u0940 \u0930\u0916\u093f\u090f"
+    },
+    "3461_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Drama",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0921\u094d\u0930\u093e\u092e\u093e TV \u0936\u094b  "
+    },
+    "3496": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular English Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940 TV \u0936\u094b  "
+    },
+    "3422_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Drama",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0921\u094d\u0930\u093e\u092e\u093e \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "4496_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "New and Upcoming",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0928\u092f\u093e \u0914\u0930 \u0906\u0928\u0947 \u0935\u093e\u0932\u093e"
+    },
+    "3486": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Telugu Movies",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0924\u0947\u0932\u0941\u0917\u0942 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3515_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Thriller",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0925\u094d\u0930\u093f\u0932\u0930 "
+    },
+    "3439_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Crime",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0915\u094d\u0930\u093e\u0907\u092e TV \u0936\u094b "
+    },
+    "3465_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Crime",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0915\u094d\u0930\u093e\u0907\u092e \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3529": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Channels",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u091a\u0948\u0928\u0932\u094d\u0938"
+    },
+    "4691_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Biopic",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092c\u093e\u092f\u094b\u092a\u093f\u0915\u094d\u0938"
+    },
+    "3492_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Action",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u090f\u0915\u094d\u0936\u0928 "
+    },
+    "4675_25_3": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Kids",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u092c\u091a\u094d\u091a\u094b\u0902 \u0915\u0940 \u092a\u0938\u0902\u0926"
+    },
+    "3501": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Malayalam Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092e\u0932\u092f\u093e\u0932\u092e TV \u0936\u094b  "
+    },
+    "3502": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Bengali Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092c\u0902\u0917\u093e\u0932\u0940 TV \u0936\u094b"
+    },
+    "3503": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Telugu Shows",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092c\u0902\u0917\u093e\u0932\u0940 TV \u0936\u094b"
+    },
+    "3427": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Channels",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u091a\u0948\u0928\u0932\u094d\u0938 "
+    },
+    "3454_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Comedy",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0915\u0949\u092e\u0947\u0921\u0940 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "4345_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Teen",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u091f\u0940\u0928 \u0915\u0940 \u092a\u0938\u0902\u0926 "
+    },
+    "3525": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Marvel Heroes",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "Marvel \u0938\u0941\u092a\u0930\u0939\u0940\u0930\u094b\u095b \u0915\u0940 \u0926\u0941\u0928\u093f\u092f\u093e"
+    },
+    "3481": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Malayalam Movies",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u092e\u0932\u092f\u093e\u0932\u092e \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3523_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Crime",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0915\u094d\u0930\u093e\u0907\u092e"
+    },
+    "3458_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Thriller",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0925\u094d\u0930\u093f\u0932\u0930 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3527_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular Genres",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0936\u0948\u0932\u093f\u092f\u093e\u0902"
+    },
+    "4348_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Travel",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u091f\u094d\u0930\u0948\u0935\u0947\u0932"
+    },
+    "4695_25_4": {
+      "bengali": "",
+      "telugu": "",
+      "english": "Popular in Science",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0932\u094b\u0915\u092a\u094d\u0930\u093f\u092f \u0938\u093e\u0907\u0902\u0938 \u092b\u093f\u0932\u094d\u092e\u0947\u0902 "
+    },
+    "3490": {
+      "bengali": "",
+      "telugu": "",
+      "english": "CinePlay\u00a0\u2013 Stage On Screen",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u0938\u093f\u0928\u0947\u092a\u094d\u0932\u0947 - \u0928\u093e\u091f\u0915 \u0905\u092c \u0938\u094d\u0915\u094d\u0930\u0940\u0928 \u092a\u0930"
+    },
+    "3428_25_2": {
+      "bengali": "",
+      "telugu": "",
+      "english": "My Downloads",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "hindi": "\u092e\u0947\u0930\u0947 \u0921\u093e\u0909\u0928\u094d\u0932\u094b\u0921\u094d\u0938"
+    }
+  },
+  "nudge": {
+    "positive_button": {
+      "hindi": "\u0930\u0916\u0947\u0902 ",
+      "telugu": "",
+      "english": "KEEP",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "subtitle": {
+      "hindi": "\u0906\u092a\u0915\u093e \u0905\u092a\u0928\u093e हॉटस्टार \u0905\u092c \u0906\u092a\u0915\u0940 \u0905\u092a\u0928\u0940 \u092d\u093e\u0937\u093e \u092e\u0947\u0902 ",
+      "telugu": "",
+      "english": "Nudge subtitle",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "negative_button": {
+      "hindi": "\u0939\u091f\u093e\u092f\u0947\u0902",
+      "telugu": "",
+      "english": "REMOVE",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    },
+    "title": {
+      "hindi": "\u0939\u093f\u0902\u0926\u0940 \u092e\u0947\u0902 ",
+      "telugu": "",
+      "english": "Nudge title",
+      "malayalam": "",
+      "marathi": "",
+      "kannada": "",
+      "tamil": "",
+      "bengali": ""
+    }
+  },
+  "supported_langs": [
+    "english",
+    "hindi"
+  ]
+}

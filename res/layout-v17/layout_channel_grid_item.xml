@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/layout_channel_grid_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" app:cardElevation="0.0dip" style="@style/ContentCardViewStyle">
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<in.startv.hotstar.rocky.ui.customviews.HsResizableImageView android:id="@id/image" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" app:ratio="0.5625" />
+		<com.airbnb.lottie.LottieAnimationView android:id="@id/live_channel_badge" android:tag="binding_2" android:visibility="gone" android:layout_width="@dimen/live_badge_width" android:layout_height="@dimen/masthead_badge_height" android:layout_marginLeft="@dimen/badge_padding" android:layout_marginTop="@dimen/badge_padding" android:layout_marginStart="@dimen/badge_padding" app:lottie_rawRes="@raw/live_badge" />
+	</FrameLayout>
+	<ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/empty" app:srcCompat="@drawable/content_card_item_border" />
+</androidx.cardview.widget.CardView>

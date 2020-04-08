@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/spinner" android:tag="layout/content_recycler_progress_0" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent">
+	<ProgressBar android:layout_gravity="center" style="@style/ContentTraySpinner" />
+</FrameLayout>

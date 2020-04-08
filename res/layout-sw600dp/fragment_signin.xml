@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="144.0dip" android:paddingTop="60.0dip" android:paddingRight="144.0dip" android:paddingBottom="36.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<in.startv.hotstar.rocky.ui.customviews.HSButton android:id="@id/login_with_phone" android:visibility="gone" android:layout_marginBottom="@dimen/margin_bottom_login_phone" android:text="@string/log_in_with_mobile_number" style="@style/ButtonGreenGray" />
+		<include layout="@layout/layout_facebook" />
+		<com.google.android.material.textfield.TextInputLayout android:theme="@style/LoginTextInputTheme" android:textColor="@color/auth_text_color" android:id="@id/email_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/auth_email_address">
+			<in.startv.hotstar.rocky.ui.customviews.HSEditText android:textAppearance="@style/P1.Regular.Black" android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="256" android:inputType="textEmailAddress" style="@style/EditTextStyle" />
+		</com.google.android.material.textfield.TextInputLayout>
+		<com.google.android.material.textfield.TextInputLayout android:theme="@style/LoginTextInputTheme" android:textColor="@color/auth_text_color" android:id="@id/password_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/signup_edittext_spacing" android:hint="@string/auth_password_address" app:passwordToggleEnabled="true" app:passwordToggleTint="@color/auth_show_hide_color">
+			<in.startv.hotstar.rocky.ui.customviews.HSEditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="256" android:inputType="textPassword" style="@style/EditTextStyle" />
+		</com.google.android.material.textfield.TextInputLayout>
+		<in.startv.hotstar.rocky.ui.customviews.HSButton android:id="@id/signin" android:layout_marginTop="@dimen/signup_button_top_margin" android:text="@string/log_in_caps" style="@style/ButtonGreenGray" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center_horizontal" android:id="@id/forgot_password" android:background="?android:selectableItemBackground" android:padding="@dimen/normal_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/forgot_password_top_margin" android:text="@string/forgot_password_caps" android:lineSpacingExtra="@dimen/signIn_lineSpacing_size" style="@style/L1.Medium.TreeGreen" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/no_account_sign_up" android:background="?android:selectableItemBackground" android:padding="@dimen/normal_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="320.0dip" style="@style/P2.Regular" />
+	</LinearLayout>
+</ScrollView>

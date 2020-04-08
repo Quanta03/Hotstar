@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="39.5dip" android:width="35.0dip" android:viewportWidth="27.0" android:viewportHeight="31.0">
+	<path android:fillColor="@color/subs_upgrade_discount_tag_bg" android:pathData="M0,0h27v28.36a2,2 0,0 1,-2.48 1.942L13.5,27.574 2.48,30.302A2,2 0,0 1,0 28.361V0z" android:fillAlpha="0.7" android:fillType="nonZero" />
+</vector>

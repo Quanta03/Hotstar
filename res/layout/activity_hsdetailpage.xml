@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/activity_hsdetailpage_0" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="?scrollingViewBehavior" />
+	<include android:id="@id/toolbar_container" layout="@layout/toolbar_container" />
+	<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+		<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/premium_download_tip" android:background="@drawable/download_toast_background" android:paddingLeft="12.0dip" android:paddingRight="48.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip" android:foreground="?android:selectableItemBackground">
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/tab_text_unselected" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_download_tip" android:lineSpacingExtra="4.0sp" style="@style/L3.Regular" />
+		</LinearLayout>
+		<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/download_toast" android:background="@drawable/download_toast_background" android:paddingLeft="12.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:foreground="?android:selectableItemBackground">
+			<com.github.lzyzsd.circleprogress.DonutProgress android:id="@id/download_progress_circle" android:layout_width="16.0dip" android:layout_height="16.0dip" app:donut_circle_starting_degree="-90" app:donut_finished_color="@color/tree_green" app:donut_finished_stroke_width="2.0dip" app:donut_max="100" app:donut_show_text="false" app:donut_unfinished_color="@color/donut_progress_bg" app:donut_unfinished_stroke_width="2.0dip" />
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textColor="@color/tab_text_unselected" android:id="@id/toast_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" style="@style/L4.Medium" />
+			<ImageView android:layout_width="8.0dip" android:layout_height="10.0dip" app:srcCompat="@drawable/right_chevron" />
+		</LinearLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

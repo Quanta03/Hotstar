@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0">
+	<path android:fillColor="@color/subs_upgrade_tick_bg" android:pathData="M10,10m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" android:fillType="evenOdd" />
+	<path android:fillColor="#ffffffff" android:pathData="M8.532,13.78h-0.03a0.88,0.88 0,0 1,-0.649 -0.321L5.321,10.38c-0.292,-0.355 -0.302,-0.889 0.022,-1.214a0.88,0.88 0,0 1,1.304 0.06l1.825,2.218a0.146,0.146 0,0 0,0.22 0.008l4.48,-4.743c0.316,-0.333 0.844,-0.411 1.208,-0.13a0.879,0.879 0,0 1,0.105 1.301L9.17,13.504a0.878,0.878 0,0 1,-0.639 0.276" android:fillType="nonZero" />
+</vector>

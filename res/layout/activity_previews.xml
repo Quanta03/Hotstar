@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<in.startv.hotstar.rocky.previews.DragToClose xmlns:drag="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/drag_to_close" android:tag="layout/activity_previews_0" android:layout_width="fill_parent" android:layout_height="fill_parent" drag:dragtoclose_closeOnClick="true" drag:dragtoclose_draggableContainer="@id/draggable_container" drag:dragtoclose_draggableView="@id/draggable_container" drag:dragtoclose_finishActivity="false">
+	<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/draggable_container" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<in.startv.hotstar.rocky.previews.ViewPagerCustom android:id="@id/previewViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" drag:layout_constraintBottom_toBottomOf="parent" drag:layout_constraintEnd_toEndOf="parent" drag:layout_constraintStart_toStartOf="parent" drag:layout_constraintTop_toTopOf="parent" />
+		<in.startv.hotstar.rocky.ui.customviews.SlidingTabLayout android:id="@id/slidingTabLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" drag:layout_constraintTop_toTopOf="parent">
+			<LinearLayout android:orientation="horizontal" android:id="@id/slidingTabStrip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		</in.startv.hotstar.rocky.ui.customviews.SlidingTabLayout>
+		<ImageView android:id="@id/closePreviewBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="11.0dip" drag:layout_constraintRight_toRightOf="parent" drag:layout_constraintTop_toTopOf="parent" drag:srcCompat="@drawable/ic_cross_white_24" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</in.startv.hotstar.rocky.previews.DragToClose>

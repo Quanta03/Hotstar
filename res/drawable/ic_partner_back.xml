@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="14.0dip" android:width="14.0dip" android:viewportWidth="14.0" android:viewportHeight="14.0">
+	<path android:fillColor="@color/ad_partner_actions" android:pathData="M4.1564,6.3091C4.0574,6.3091 4.0075,6.1924 4.0779,6.1242L7.3592,2.9311C7.637,2.6609 7.6362,2.2226 7.3576,1.9536L7.3544,1.9504C7.0771,1.6825 6.6295,1.6833 6.3534,1.952L1.666,6.5131C1.3891,6.7822 1.3891,7.2193 1.666,7.4887L6.3513,12.0479C6.6283,12.3174 7.0775,12.3174 7.3544,12.0479C7.6313,11.7785 7.6313,11.3422 7.3548,11.0723L4.0775,7.8776C4.0071,7.8095 4.057,7.6928 4.156,7.6928L11.832,7.6928C12.2237,7.6928 12.5417,7.3838 12.5417,7.0027L12.5417,6.9992C12.5417,6.6181 12.2237,6.3091 11.832,6.3091L4.1564,6.3091Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:strokeAlpha="0.8" android:fillAlpha="0.8" android:fillType="evenOdd" />
+</vector>

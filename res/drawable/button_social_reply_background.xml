@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true">
+		<shape>
+			<corners android:radius="11.0dip" />
+			<solid android:color="@color/social_feed_reply_pressed_bg" />
+		</shape>
+	</item>
+	<item>
+		<shape>
+			<corners android:radius="11.0dip" />
+			<gradient android:startColor="@color/feed_comment_replay_bg_color_start" android:endColor="@color/feed_comment_replay_bg_color_end" android:angle="270.0" />
+		</shape>
+	</item>
+</selector>

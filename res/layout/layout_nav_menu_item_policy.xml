@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:tag="layout/layout_nav_menu_item_policy_0" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/privacy_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/privacy_policy_action" style="@style/P2.Regular.GreyFour" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/separator_dot" style="@style/P2.Regular.GreyFour" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/terms_of_use_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/terms_of_use_action" style="@style/P2.Regular.GreyFour" />
+</LinearLayout>

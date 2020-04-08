@@ -1,0 +1,409 @@
+{
+  "playbackErrorMessages": {
+    "NM-1001": {
+      "title": "Playback Error",
+      "message": "Your network seems to be having issues. Please check your network connection and try again."
+    },
+    "NM-1000": {
+      "title": "Playback Error",
+      "message": "Your network seems to be having issues. Please check your network connection and try again."
+    },
+    "NL-1000": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to DRM issues. Please try again."
+    },
+    "NL-1001": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to DRM issues. Please try again."
+    },
+    "NM-4031": {
+      "title": "Playback Error",
+      "message": "This content is currently not available in your region."
+    },
+    "NM-4032": {
+      "title": "Playback Error",
+      "message": "Error occurred while accessing this content. Please try again."
+    },
+    "NM-4040": {
+      "title": "Playback Error",
+      "message": "Error playing this content since the requested URL was not found on Hotstar server."
+    },
+    "PL-1000": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to media services being unavailable on your device. Please restart your device and try again."
+    },
+    "PL-1100": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to media services being unavailable on your device. Please restart your device and try again."
+    },
+    "PL-1101": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to media services being unavailable on your device. Please restart your device and try again."
+    },
+    "PL-1102": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to media services being unavailable on your device. Please restart your device and try again."
+    },
+    "PL-1201": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to DRM issues. Please try again."
+    },
+    "PL-1202": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to DRM issues. Please try again."
+    },
+    "PL-1203": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to DRM issues. Please try again."
+    },
+    "PL-1206": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to drm services being unavailable on your device. Please restart your device and try again."
+    },
+    "PL-0000": {
+      "title": "Playback Error",
+      "message": "An error has occurred. Please try again"
+    },
+    "DR-1100": {
+      "title": "Playback Error",
+      "message": "Error playing this content due to DRM issues. Please try again."
+    },
+    "DR-1101": {
+      "title": "Playback Error",
+      "message": "This content playback is not supported on your device"
+    }
+  },
+  "defaultApiErrorMessages": {
+    "HP-1000": {
+      "title": "",
+      "message": "Please check you internet connection and try again."
+    },
+    "HP-1001": {
+      "title": "",
+      "message": "You seem to be offline. Please check you internet connection and try again."
+    },
+    "DEFAULT-4710": {
+      "title": "",
+      "message": "You seem to be using a vpn or proxy. Please turn off any of these services and try again."
+    },
+    "DEFAULT-4720": {
+      "title": "",
+      "message": "You seem to be using a vpn or proxy. Please turn off any of these services and try again."
+    },
+    "DEFAULT-4730": {
+      "title": "",
+      "message": "You seem to be using a vpn or proxy. Please turn off any of these services and try again."
+    },
+    "DEFAULT-4740": {
+      "title": "",
+      "message": "You seem to be using a vpn or proxy. Please turn off any of these services and try again."
+    },
+    "DEFAULT-4750": {
+      "title": "",
+      "message": "You seem to be using a vpn or proxy. Please turn off any of these services and try again."
+    },
+    "DEFAULT-4760": {
+      "title": "",
+      "message": "You seem to be using a vpn or proxy. Please turn off any of these services and try again."
+    },
+    "DEFAULT": {
+      "title": "",
+      "message": "An error has occured."
+    }
+  },
+  "subscriptionErrorMessages": {
+    "default": {
+      "title": "Subscription Error",
+      "message": "Something went wrong. Please try again in sometime. (ERROR : %s)"
+    }
+  },
+  "subscriptionPacksErrorMessages": {
+    "default": {
+      "title": "Subscription Error",
+      "message": "Something went wrong. Please try again in sometime. (ERROR : %s)"
+    }
+  },
+  "cancelSubscriptionErrorMessages": {
+    "403": {
+      "title": "Subscription Cancellation Error",
+      "message": "Something went wrong. Please try again in sometime. For help, write to hello@hotstar.com. (Error: %s)"
+    },
+    "default": {
+      "title": "Subscription Cancellation Error",
+      "message": "Something went wrong. Please try again in sometime. (ERROR : %s)"
+    }
+  },
+  "umConcurrencyErrorMessages": {
+    "ERR_CON_041": {
+      "title": "More than %s videos are being requested from this account",
+      "message": "Please stop playing on other devices and hit retry",
+      "subMessage": "or verify your account to continue watching."
+    },
+    "ERR_CON_040": {
+      "title": "",
+      "message": "Your account was verified, Please log in again."
+    },
+    "ERR_CON_042": {
+      "title": "Secure Your Account to Continue",
+      "message": "Your Hotstar account needs to be verfied on this device for full access"
+    },
+    "ERR_CON_043": {
+      "title": "",
+      "message": "Session expired. Please login again."
+    },
+    "ERR_CON_044": {
+      "title": "",
+      "message": "Session expired. Please login again."
+    },
+    "default": {
+      "title": "",
+      "message": "Oops, something went wrong. Please try again in sometime. For help, write to help@hotstar.com"
+    }
+  },
+  "umEntitlementErrorMessages": {
+    "ERR_ENT_1408": {
+      "title": "",
+      "message": "Session expired. Please login again."
+    },
+    "ERR_ENT_1409": {
+      "title": "",
+      "message": "Session expired. Please login again."
+    },
+    "ERR_ENT_1410": {
+      "title": "",
+      "message": "This content is not available in your region."
+    },
+    "ERR_ENT_1404": {
+      "title": "",
+      "message": "You seem to be using VPN proxy services. Please turn these off and try again"
+    },
+    "default": {
+      "title": "",
+      "message": "We currently don't support Hotstar in your region. If you are in supported region and can not access our services, please try restarting your Hotstar application"
+    }
+  },
+  "umRefreshTokenErrorMessages": {
+    "ERR_UM_070": {
+      "title": "",
+      "message": "Your account has been blacklisted. For help, please write to help@hotstar.com"
+    },
+    "ERR_UM_071": {
+      "title": "",
+      "message": "Your account was verified, Please log in again."
+    },
+    "ERR_UM_072": {
+      "title": "",
+      "message": "Your account has been re-activated. Please login to continue."
+    },
+    "UMSP_601": {
+      "title": "",
+      "message": "Session expired. Please login again"
+    },
+    "UM_HTTP_204": {
+      "title": "",
+      "message": "This email is not registered with us. Please create an account"
+    },
+    "UM_HTTP_401": {
+      "title": "",
+      "message": "Invalid username or password. Please try again."
+    },
+    "UM_HTTP_409": {
+      "title": "",
+      "message": "You have previously created Hotstar account using this email address. You need to log in to continue."
+    },
+    "UM_HTTP_400": {
+      "title": "",
+      "message": "Email address provided is not valid"
+    },
+    "default": {
+      "title": "",
+      "message": "Oops, something went wrong. Please try again in sometime. For help, write to help@hotstar.com"
+    }
+  },
+  "downloadErrorMessages": {
+    "DW-0000": {
+      "title": "",
+      "message": "An error has occured."
+    },
+    "DW-1000": {
+      "title": "",
+      "message": "Download expired."
+    },
+    "DW-1001": {
+      "title": "",
+      "message": "Could not start local server."
+    },
+    "DW-1002": {
+      "title": "",
+      "message": "The downloaded video you are trying to play has been deleted."
+    },
+    "DW-1003": {
+      "title": "",
+      "message": "Insufficient storage space."
+    },
+    "DW-1004": {
+      "title": "",
+      "message": "No internet connection. Please try again."
+    },
+    "DW-1005": {
+      "title": "",
+      "message": "Sorry, unable to download. Please try again."
+    },
+    "DW-1006": {
+      "title": "",
+      "message": "Download renewed."
+    },
+    "DW-1007": {
+      "title": "",
+      "message": "Sorry, failed to renew download. Please try again."
+    },
+    "DW-1008": {
+      "title": "",
+      "message": "Some error occurred in downloading this file."
+    }
+  },
+  "umForgotPasswordErrorMessages": {
+    "ERR_UM_107": {
+      "title": "",
+      "message": "Maximum attempts reached! Please check inbox for changing your password."
+    }
+  },
+  "hplayErrorMessages": {
+    "HP-9000": {
+      "title": "Playback Error",
+      "message": "This content is not supported on your device"
+    },
+    "HP-9001": {
+      "title": "Playback Error",
+      "message": "No matching url found for this content"
+    }
+  },
+  "consentErrorMessage": {
+    "default": {
+      "title": "Oops, something went wrong. Please try again.(Consent)",
+      "message": "Oops, something went wrong. Please try again.(Consent)"
+    }
+  },
+  "initReAuthErrorMessage": {
+    "ERR_UM_071": {
+      "title": "",
+      "message": "Account verified. Please login to continue."
+    },
+    "ERR_UM_041": {
+      "title": "",
+      "message": "Session expired. Please logout & login to continue."
+    },
+    "ERR_UM_042": {
+      "title": "",
+      "message": "Session expired. Please logout & login to continue."
+    },
+    "ERR_UM_108": {
+      "title": "",
+      "message": "Maximum attempts reached.Please try again after some time."
+    },
+    "ERR_UM_010": {
+      "title": "",
+      "message": "Invalid phone number for region."
+    },
+    "ERR_UM_081": {
+      "title": "",
+      "message": "Maximum attempt for change password reached. Please try again after 24 hours."
+    },
+    "ERR_UM_104": {
+      "title": "",
+      "message": "Maximum attempts reached to login."
+    },
+    "ERR_UM_110": {
+      "title": "",
+      "message": "Maximum attempts reached for verifying your Facebook account. Please try again after some time."
+    },
+    "ERR_UM_095": {
+      "title": "",
+      "message": "Invalid Session. Please logout and login again"
+    },
+    "ERR_UM_035": {
+      "title": "",
+      "message": "Incorrect code entered. Please enter again"
+    },
+    "ERR_UM_054": {
+      "title": "",
+      "message": "Invalid Session. Please logout and login again"
+    },
+    "ERR_UM_045": {
+      "title": "",
+      "message": "Can not create new user from facebook."
+    },
+    "ERR_UM_099": {
+      "title": "",
+      "message": "Invalid Session. Please logout and login again."
+    },
+    "ERR_UM_106": {
+      "title": "",
+      "message": "Something went wrong. Please try again."
+    },
+    "ERR_UM_113": {
+      "title": "",
+      "message": "Something went wrong. Please try again."
+    },
+    "ERR_UM_114": {
+      "title": "",
+      "message": "Something went wrong. Please try again."
+    },
+    "ERR_UM_115": {
+      "title": "",
+      "message": "Connection time out. Please try again."
+    },
+    "default": {
+      "title": "",
+      "message": "Oops, something went wrong. Please try again in sometime. For help, write to help@hotstar.com"
+    }
+  },
+  "userActions": {
+    "CHANGE_PASSWORD": {
+      "title": "",
+      "message": "Change Password"
+    },
+    "LOGOUT_DEVICES": {
+      "title": "",
+      "message": "VERIFY ACCOUNT"
+    },
+    "LOGOUT_ALL_DEVICES": {
+      "title": "",
+      "message": "VERIFY ACCOUNT"
+    },
+    "AUTHENTICATE_WITH_PASSWORD": {
+      "title": "",
+      "message": "LOGIN WITH NEW PASSWORD"
+    },
+    "FORCE_LOGOUT": {
+      "title": "",
+      "message": "LOGIN WITH NEW PASSWORD"
+    }
+  },
+  "infoMessages": {
+    "CHANGE_PASSWORD_EMAIL": {
+      "title": "Check your email",
+      "message": "We have sent a link to change your password to your email address <b>%s</b>."
+    },
+    "CHECK_YOUR_EMAIL_INFO_DEFAULT": {
+      "title": "Check your email",
+      "message": "Please check your email - <b>%s</b> and change password to verify account."
+    },
+    "ACCOUNT_LOGGED_OUT_NON_FACEBOOK": {
+      "title": "Account logged out",
+      "message": "You verified your account from <b>%s</b> a while ago.<br />Please log in again to enjoy Hotstar."
+    },
+    "ACCOUNT_LOGGED_OUT_FACEBOOK": {
+      "title": "Account logged out",
+      "message": "You verified your account connected via Facebook a while ago.<br />Please log in again to enjoy Hotstar."
+    },
+    "LOGOUT_INITIATED": {
+      "title": "Account verified",
+      "message": "You can continue watching now."
+    },
+    "VERIFY_ACCOUNT_HEADER": {
+      "title": "Verify your account",
+      "message": "You are just one step away from verifying to continue watching again."
+    }
+  }
+}

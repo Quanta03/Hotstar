@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/activity_hotshot_0" android:background="@color/social_hotshot_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<FrameLayout android:layout_gravity="center" android:id="@id/camera_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

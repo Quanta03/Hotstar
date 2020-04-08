@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<in.startv.hotstar.rocky.ui.customviews.HSButton android:id="@id/button_cancel" android:layout_width="wrap_content" android:layout_height="@dimen/feedback_button_height" android:text="@string/feedback_button_cancel" android:layout_alignParentRight="true" style="?android:buttonBarButtonStyle" />
+	<in.startv.hotstar.rocky.ui.customviews.HSButton android:id="@id/button_yes" android:layout_width="wrap_content" android:layout_height="@dimen/feedback_button_height" android:layout_marginBottom="@dimen/feedback_button_margin" android:text="@string/feedback_button_yes" android:layout_toLeftOf="@id/button_cancel" style="?android:buttonBarButtonStyle" />
+	<in.startv.hotstar.rocky.ui.customviews.HSButton android:id="@id/button_needs_work" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/feedback_button_height" android:layout_marginBottom="@dimen/feedback_button_margin" android:text="@string/feedback_button_needs_work" style="?android:buttonBarButtonStyle" />
+	<Space android:layout_width="fill_parent" android:layout_height="@dimen/feedback_button_bottom_space" />
+</RelativeLayout>

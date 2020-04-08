@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/trending_header_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/trending_header_color" android:tag="binding_1" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginBottom="16.0dip" android:fontFamily="sans-serif-medium" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+</LinearLayout>

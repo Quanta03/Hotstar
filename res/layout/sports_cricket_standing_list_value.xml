@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/sports_cricket_standing_list_value_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+	<LinearLayout android:orientation="horizontal" android:id="@id/ll_container" android:paddingTop="@dimen/tournament_standing_list_row_bottom_top_padding" android:paddingBottom="@dimen/tournament_standing_list_row_bottom_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="50.0">
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/tv_rank" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tournament_standing_list_team_rank_left_margin" style="@style/P2.Medium.BrownishGrey" />
+			<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/tv_name" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tournament_standing_list_team_rank_and_team_name_gap" style="@style/P2.Medium.Black" />
+		</LinearLayout>
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/tv_matches" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0" style="@style/P2.Regular.BrownishGrey" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/tv_wins" android:tag="binding_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0" style="@style/P2.Regular.BrownishGrey" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/tv_loss" android:tag="binding_5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0" style="@style/P2.Regular.BrownishGrey" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/tv_no_result" android:tag="binding_6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0" style="@style/P2.Regular.BrownishGrey" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/tv_points" android:tag="binding_7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0" style="@style/P2.Regular.Black" />
+	</LinearLayout>
+	<View android:background="@color/tournament_standing_list_top_divider" android:layout_width="fill_parent" android:layout_height="@dimen/tournament_standing_list_row_divider_height" />
+</LinearLayout>

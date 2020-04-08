@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/subscription_tray_container" android:tag="layout/fragment_subscription_page_detail_tray_0" android:background="@color/subs_module_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:layout_gravity="center" android:id="@id/title" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/subscription_tray_title_margin_top" style="@style/H2.Medium.Black" />
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/collage_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" />
+</LinearLayout>

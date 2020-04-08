@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/fb_layout" android:tag="layout/layout_facebook_button_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/facebook_login" android:layout_width="fill_parent" android:layout_height="@dimen/sign_in_button_sign_in_height" android:foreground="?android:selectableItemBackground" style="@style/CustomFacebookButton">
+		<ImageView android:gravity="center" android:layout_gravity="center" android:layout_width="@dimen/signin_facebook_icon_width" android:layout_height="@dimen/signin_facebook_icon_height" android:layout_marginRight="@dimen/fb_logo_right_margin" android:src="@drawable/facebook" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continue_with_facebook" style="@style/L1.Medium.White" />
+	</LinearLayout>
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center_horizontal" android:id="@id/tv_fb_login_disclaimer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/facebook_description_top_margin" android:text="@string/we_will_never_post_anything_without_your_permission" style="@style/P3.Regular.WarmGreyTwo" />
+</LinearLayout>

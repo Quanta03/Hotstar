@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<plurals name="cw_deleted_count_message"><item quantity="other">Removed %d videos</item><item quantity="one">Removed 1 video</item></plurals>
+<plurals name="download_delete_count_msg"><item quantity="other">%d videos selected</item><item quantity="one">1 video selected</item></plurals>
+<plurals name="download_delete_message"><item quantity="other">Delete %d Videos from Downloads?</item><item quantity="one">Delete Video from Downloads?</item></plurals>
+<plurals name="downloading_video"><item quantity="other">Downloading Videos</item><item quantity="one">Downloading Video</item></plurals>
+<plurals name="expired_title"><item quantity="other">Expires in %d days</item><item quantity="one">Expires in 1 day</item></plurals>
+<plurals name="invite_friends"><item quantity="other">INVITE %d FRIENDS</item><item quantity="one">INVITE %d FRIEND</item></plurals>
+<plurals name="items_selected"><item quantity="other">%d Items Selected</item><item quantity="one">%d Item Selected</item></plurals>
+<plurals name="next_content_progress"><item quantity="other">%d seconds</item><item quantity="one">%d second</item></plurals>
+<plurals name="nudge_skips_left"><item quantity="other">%d skips left</item><item quantity="one">%d skip left</item></plurals>
+<plurals name="removed_items"><item quantity="other">Removed %d Videos</item><item quantity="one">Removed %d Video</item></plurals>
+<plurals name="select_friends_all_friends_title"><item quantity="other">You have %d friends</item><item quantity="one">You have %d friend</item></plurals>
+<plurals name="skips_left"><item quantity="other">(%d skips left)</item><item quantity="one">(%d skip left)</item></plurals>
+</resources>

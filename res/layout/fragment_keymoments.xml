@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_keymoments_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_list" android:tag="@string/tag_main_scrolling_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" style="@style/SmallSpinner" />
+	<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:id="@id/emopty_ball" android:layout_width="94.0dip" android:layout_height="94.0dip" android:alpha="0.4" app:srcCompat="@drawable/ball_on_fire" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center_horizontal" android:id="@id/empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_high" android:text="@string/waiting_for_the_match" android:alpha="0.4" style="@style/L1.Regular.Black" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:layout_gravity="center_horizontal" android:id="@id/emopty_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_low" android:text="@string/key_moments_will_be_here" android:alpha="0.4" style="@style/L3.Regular.BlackSeventy" />
+	</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_landscape_feed_0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_outer" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_outer_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="102.0dip" />
+	<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/signal" android:tag="binding_2" android:layout_width="50.0dip" android:layout_height="wrap_content" app:layout_constraintLeft_toRightOf="@id/guideline_outer" app:layout_constraintTop_toBottomOf="@id/guideline_outer_horizontal">
+		<in.startv.hotstar.rocky.ui.customviews.blur.RoundishFrameLayout android:id="@id/initials_container" android:tag="binding_3" android:layout_width="@dimen/landscape_circle_size" android:layout_height="@dimen/landscape_circle_size" android:layout_marginTop="5.0dip" app:cornerRadius="12.0dip" app:roundedCorners="all">
+			<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline_inner" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textAppearance="@style/P3.Medium.White" android:gravity="center" android:id="@id/initials" android:tag="binding_5" android:layout_width="@dimen/landscape_circle_size" android:layout_height="@dimen/landscape_circle_size" android:letterSpacing="0.01" app:layout_constraintRight_toLeftOf="@id/guideline_inner" app:layout_constraintTop_toTopOf="parent" />
+				<com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_animation_view" android:tag="binding_6" android:layout_width="@dimen/landscape_circle_size" android:layout_height="@dimen/landscape_circle_size" app:layout_constraintLeft_toRightOf="@id/guideline_inner" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="false" app:lottie_loop="false" />
+			</androidx.constraintlayout.widget.ConstraintLayout>
+		</in.startv.hotstar.rocky.ui.customviews.blur.RoundishFrameLayout>
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:textAppearance="@style/L5.Regular.White" android:ellipsize="end" android:gravity="center_horizontal" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:shadowColor="#ff000000" android:shadowDy="2.0" android:shadowRadius="10.0" />
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

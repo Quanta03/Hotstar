@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="51.0dip" android:width="51.0dip" android:viewportWidth="51.0" android:viewportHeight="51.0">
+	<path android:fillColor="@color/ic_subs_landing_bg" android:pathData="M25.2,25.2m-25.2,0a25.2,25.2 0,1 1,50.4 0a25.2,25.2 0,1 1,-50.4 0" android:fillType="evenOdd" />
+	<path android:fillColor="#00000000" android:pathData="M25.2,25.2m-12.6,0a12.6,12.6 0,1 1,25.2 0a12.6,12.6 0,1 1,-25.2 0" android:strokeColor="@color/ic_subs_landing_stroke" android:strokeWidth="1.8" android:fillType="evenOdd" />
+	<path android:fillColor="#00000000" android:pathData="M25.65,12.6v1.8" android:strokeColor="@color/ic_subs_landing_stroke" android:strokeWidth="1.8" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+	<path android:fillColor="#00000000" android:pathData="M37.8,24.75H36M15.3,24.75h-1.8" android:strokeColor="@color/ic_subs_landing_stroke" android:strokeWidth="1.8" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+	<path android:fillColor="#00000000" android:pathData="M25.65,35.1v1.8M22.5,9h5.4M20.7,25.16l3.19,3.19 5.85,-5.85" android:strokeColor="@color/ic_subs_landing_stroke" android:strokeWidth="1.8" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+</vector>

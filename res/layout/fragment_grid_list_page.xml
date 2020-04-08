@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_grid_list_page_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+	<ProgressBar android:id="@id/progress" android:layout_centerInParent="true" style="@style/SmallSpinner" />
+	<androidx.recyclerview.widget.RecyclerView android:id="@id/grid_content_list" android:tag="binding_1" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+	<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_content" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="BitrateDialog"><item name="android:layout_width">@dimen/bitrate_dialog_width</item><item name="android:layout_height">wrap_content</item></style>
+<style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout"><item name="tabGravity">center</item><item name="tabMode">fixed</item></style>
+</resources>

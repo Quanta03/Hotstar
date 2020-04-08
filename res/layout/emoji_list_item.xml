@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:id="@id/emoji_icon_container" android:tag="layout/emoji_list_item_0" android:layout_width="40.0dip" android:layout_height="40.0dip">
+	<ImageView android:id="@id/emoji_icon" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+</LinearLayout>

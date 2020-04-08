@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_enabled="true">
+		<shape>
+			<stroke android:width="0.5dip" android:color="@color/voting_active_banner_bg_border_color" />
+			<corners android:radius="5.0dip" />
+			<gradient android:startColor="@color/voting_active_banner_bg_start_color" android:endColor="@color/voting_active_banner_bg_end_color" android:angle="270.0" />
+		</shape>
+	</item>
+	<item android:state_enabled="false">
+		<shape>
+			<stroke android:width="0.5dip" android:color="@color/voting_inactive_banner_bg_border_color" />
+			<corners android:radius="5.0dip" />
+			<gradient android:startColor="@color/voting_inactive_banner_bg_start_color" android:endColor="@color/voting_inactive_banner_bg_end_color" android:angle="270.0" />
+		</shape>
+	</item>
+</selector>

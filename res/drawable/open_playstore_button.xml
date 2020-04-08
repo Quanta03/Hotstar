@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+	<corners android:radius="2.0dip" />
+	<gradient android:startColor="@color/update_prompt_button_start_color" android:endColor="@color/update_prompt_button_end_color" android:angle="0.0" android:type="linear" />
+</shape>

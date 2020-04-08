@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<in.startv.hotstar.rocky.watchpage.playerviews.AdControlFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/pay_to_watch_layout" android:tag="layout/fragment_pay_to_watch_0" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageView android:id="@id/imgv_blur" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:tint="@color/paywall_background" />
+		<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+		<include android:id="@id/itunes_user_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/paywall_itunes_subscribed_user" />
+		<LinearLayout android:orientation="vertical" android:id="@id/paywall_stub" android:tag="binding_2" android:layout="@layout/paywall_free_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintWidth_max="430.0dip" />
+		<include android:id="@id/simulcast_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintWidth_max="430.0dip" layout="@layout/paywall_simulcast_view" />
+	</RelativeLayout>
+</in.startv.hotstar.rocky.watchpage.playerviews.AdControlFrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/layout_scorecard_bottom_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/scorecard_margin_med" android:layout_marginRight="@dimen/scorecard_margin_med" />

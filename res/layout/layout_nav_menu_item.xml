@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:tag="layout/layout_nav_menu_item_0" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:contentDescription="@string/empty" app:srcCompat="@drawable/ic_download" />
+	<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:id="@id/titleTV" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/vernacularTitle" style="@style/P1.Regular.Black" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:tag="binding_2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/titleTV" style="@style/L2.Regular.MediumGrey" />
+		<in.startv.hotstar.rocky.ui.customviews.HSTextView android:gravity="center" android:id="@id/vernacularTitle" android:tag="binding_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignTop="@id/titleTV" android:layout_alignBottom="@id/titleTV" android:layout_alignParentRight="true" style="@style/L2.Regular.MediumGrey" />
+	</RelativeLayout>
+	<androidx.appcompat.widget.SwitchCompat android:layout_gravity="center" android:id="@id/night_mode_switch" android:tag="binding_4" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+</LinearLayout>

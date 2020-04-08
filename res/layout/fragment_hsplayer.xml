@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_hsplayer_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<in.startv.hotstar.rocky.watchpage.playerviews.PlayerFrameLayout android:id="@id/player_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+	<ImageView android:id="@id/backdrop" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="@id/player_layout" app:layout_constraintLeft_toLeftOf="@id/player_layout" app:layout_constraintRight_toRightOf="@id/player_layout" app:layout_constraintTop_toTopOf="@id/player_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
